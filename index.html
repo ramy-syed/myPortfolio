@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/29efbe5fa8.js" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<body>
+    
+    <div id="header">
+
+        <div class="sidebar">
+
+            <nav class="list">
+
+                <ul id="sidemenu"> 
+                    <div class="arrange">
+                        <li> <a href="#content" class="active">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#ach-pr">Achievements</a></li>
+                        <li> <a href="#contact">Contact Me</a></li>
+                    </div>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="on" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <br>
+
+            </nav>
+        </div>
+
+<!-- ## HOME PAGE ## -->
+
+        <div id="content">
+
+            <div class="intro">
+                <h3 class="head">Hey There!</h3>
+                <h1 class="head">I am Rameeza Syed</h1>
+                <div class="details">
+                    <p>A graduating student; <span>Learner </span> and<br> a <span>Tech </span>and <span>Literature</span> enthusiast.</p>
+                    <p2>Welcome to my Portfolio!</p2>
+                </div>
+                
+            </div>
+            <a href="image/Resume-rameeza1.pdf" target="_main"><button>My Resume</button></a>
+            <br>
+            
+            <br>
+            <div class="icons">
+                <a href="https://www.facebook.com/ramy7syed" target="_main"> <i class="fa-brands fa-facebook-f fa-4x"></i></a>
+                <a href="https://www.instagram.com/ramy_literary" target="_main"><i class="fa-brands fa-instagram 4a-2x"></i></a>
+                <a href="https://www.linkedin.com/in/literary-ramy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_main"> <i class="fa-brands fa-linkedin fa-4x"></i></a>
+                <a href="https://www.ramywritings.wordpress.com" target="_main"><i class="fa-brands fa-wordpress fa-4x"></i></a>
+            </div>
+            <div class="circle"></div>
+
+        </div>
+    </div>
+
+<!-- ## ABOUT SECTION ## -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="image/about.png">
+                    </div>
+                    <div class="col2">
+                        <h3 class="title">About Me</h3>
+                        <p>
+                            <ul class="ab-list">
+                                <li><span>Age : </span>22 y/o</li>
+                                <li><span>DOB : </span>15 May 2003</li>
+                                <li><span>City : </span>Lucknow, U.P.</li>
+                            </ul>
+                            <br>
+                            <p class="ab">I am a tech enthusiast as well as a bibliophile and a writer. <br>
+                            Literature excites me so much and coding is my passion.  <br>
+                            My talent is that I can frame my feelings into poems.
+                            Also, my skills lies in HTML, CSS, C#, JAVA & Python programming as well as in AI/ML algorithms. <br>
+                            Currently, I am a student and developing my skills in computer science.</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="tab ">
+                    <p class="tab-links act" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+
+                <!-- ## Education ## -->
+                <div class="tab-contents active-tab" id="education">
+                    
+                    <ul class="det">
+                        <li><span>Graduation</span><br>BCA (2022-2025) -<br> Ambalika Institute of Management and Technology</li>
+                        <li><span>Training</span><br>AI/ML Trainee (Oct 23 - Dec 23) -<br> LogicPro InfoSystems</li>
+                        <li><span>Intermediate</span><br>ISC Board (2020-2021) -<br> Nirmala Convent Inter College</li>
+                        <li><span>High School<br></span>ICSE Board(2018-2019) - <br>Enfant India International School</li>
+                    </ul>
+
+                </div>
+
+                <!-- ## Skills ## -->
+                <div class="tab-contents" id="skills">
+                    
+                     <ul class="det">
+                        <li><span>Communication</span><br>English speaking and writing</li>
+                        <li><span>Coding</span><br>C#, JAVA, Python, HTML and CSS languages</li>
+                        <li><span>Literature</span><br>Poems and Content writing</li>
+                        <li><span>Editing</span><br>Picture and Video Editing</li>
+                        <li><span>Other Tech skills<br></span>Web Development and AI/ML</li>
+                    </ul>
+
+                </div>
+
+                <!-- ## Experience ## -->
+                <div class="tab-contents" id="experience">
+                    
+                    <ul class="det">
+                        <li><span>Muskurahat Foundation</span><br>Internship (Nov 2024 - Mar 2025) - Crowdfunding Intern</li>
+                        <li><span>Arun Study Foundation</span><br>Teacher (Sept 2024 - Nov 2024 ) - English, Computer Science and Maths </li>
+                        <li><span>Prodigy InfoTech</span><br>Internship (Nov 2024 - Dec 2024) - Software Development Intern</li>
+                        <li><span>CodSoft</span><br>Internship (Sept 2024 - Oct 2024) - Web Development Intern</li>
+                        <li><span>InternPe</span><br>Internship (Aug 24 - Sept 24) <br>- AI/ML Intern</li>
+                        
+                    </ul>
+
+                </div>
+                
+            </div>
+        </div>
+    
+
+    <!-- ## ACHIEVEMENTS ## -->
+
+    <div id="ach-pr">
+
+        <div class="container">
+            <div class="ach">
+
+                <div class="rows">
+
+                    <div class="column1">
+
+                        <h3 class="title">My Achievements</h3>
+
+                        <div class="ach-list">
+                            <div>
+                                <ul>
+
+                                    <li><span>Euphoria Global Poetry Fest</span><br>Top Writer (2025) - Blue Star Publication</li>
+                                    <li><span>Short Film making Competition</span><br>1<sup>st</sup> runner up (2023) - Ambalika Institute of Management and Technology</li>
+                                    <li><span>Wall Painting Competition<br></span>2<sup>nd</sup> runner up (2022) - Ambalika Institute of Management and Technology</li>
+                                    <li><span>JAVA Quiz Competition<br></span>Secured 1<sup>st</sup> position (2021) - ProProfs Quizzes</li>
+                                    <li><span>Open Mic event<br></span>Secured 1<sup>st</sup> position (2020) - ExploreYou, Lucknow</li>
+                                    <li><span>Student of the year<br></span>2019 - Enfant India International School</li>
+                                </ul>
+                            </div>
+
+                     </div>
+                    </div>
+                    <div class="column2">
+                        <img src="image/ach.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj">
+                <h1 class="proj-tit">VIEW MY PROJECTS</h1>
+                <div class="proj-list">
+                    <ul>
+                        <li><a href="claculator.html" target="_blank">ARITHEMATIC CALCULATOR</a></li>
+                        <li><a href="ipl.html" target="_blank">IPL FINAL SCORE PREDICTION MODEL</a></li>
+                        <li><a href="https://www.github.com/ramy-syed" target="_blank">VIEW MY GITHUB PROFILE</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- ## CONTACT ME SECTION ## -->
+
+<div id="contact">
+
+     <div class="container">
+
+        <h3 class="title">Reach out to me</h3>
+
+        <div class="contact-list">
+
+
+                <div>
+                    <a href="https://t.me/h0p3Shizil_ramy" target="_main"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://t.me/h0p3Shizil_ramy" target="_main"><p>Join my Telegram channel</p></a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/literary-ramy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/literary-ramy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_main"><p>Connect with me on LinkedIn</p></a>
+                </div>
+                <div>
+                    <a href="mailto:rameezasyeda9@gmail.com" target="_main"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="mailto:rameezasyeda9@gmail.com" target="_main"><p>Contact me on mail</p></a>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("act")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("act");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() 
+    {
+       sidemeu.style.right = "0";
+    }
+    function closemenu() 
+    {
+       sidemeu.style.right = "-170px";
+    }
+   
+</script>
+
+</body>
+</head>
